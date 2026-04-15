@@ -100,9 +100,18 @@ Avançando nas etapas (teclado, rede, particionamento), chegamos na tela de cria
 
 ![Criação de Usuário](Imagens%20Ubuntu/P14.png)
 
-Logo chegamos a etapa de inicialização do sistema
+### 9. Progresso e Conclusão da Instalação
+Após configurar o usuário, o instalador fará o restante do trabalho sozinho. Enquanto os arquivos são copiados, o Ubuntu exibe algumas telas de apresentação e suporte.
 
-![Inicialização sistema Ubuntu](Imagens%20Ubuntu/P15.png)
+![Progresso da Instalação](Imagens%20Ubuntu/P15.jpg)
+
+Quando o processo terminar, uma janela avisará que a instalação foi concluída. Basta clicar em **Reiniciar Agora** para usar a sua nova máquina virtual pronta!
+
+![Instalação Concluída](Imagens%20Ubuntu/P16.png)
+
+Apos este processo abrirá sua página de login
+
+![Login Máquina Virtual](Imagens%20Ubuntu/P17.png)
 
 ---
 
