@@ -44,7 +44,7 @@ Ao acessar a interface do gerenciador, utilizamos a opção **Novo** para defini
 ### 2. Definição do Sistema Operacional
 Configuramos a identidade da VM. O nome "Ubuntu" permite que o VirtualBox identifique automaticamente o kernel adequado.
 
-> [!IMPORTANT]
+> [!IMPORTANTE]
 > Optamos por **não selecionar a ISO** neste momento para realizar uma configuração granular dos recursos antes do primeiro boot.
 
 <p align="center">
