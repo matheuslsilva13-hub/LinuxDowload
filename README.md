@@ -68,6 +68,8 @@ Antes de ligar a máquina, precisamos colocar o "CD de instalação". Fomos em *
 
 Clicamos no ícone de disco e adicionamos a ISO do Ubuntu que baixamos anteriormente.
 
+![Adicionando ISO](Imagens%20Ubuntu/S.png)
+
 ![Adicionando ISO](Imagens%20Ubuntu/P8.png)
 
 Com a imagem ISO carregada com sucesso, a máquina virtual está totalmente configurada e pronta para o primeiro boot.
