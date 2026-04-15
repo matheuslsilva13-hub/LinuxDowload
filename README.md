@@ -19,13 +19,13 @@ Iniciamos o processo abrindo o VirtualBox para dar início ao assistente de cria
 
 Ao abrir o gerenciador, clicamos no botão **Novo** para começar.
 
-![Tela principal do VirtualBox Gerenciador](assets/image_4.png)
+![Tela principal do VirtualBox Gerenciador](Imagens%20Ubuntu/P2.png)
 *Legenda: Janela inicial do VirtualBox, pronta para criação de uma nova VM.*
 
 #### Definição de Nome e Sistema Operacional
 Nesta etapa, atribuímos o nome "Ubuntu" à máquina e verificamos se o tipo (Linux) e a versão (Ubuntu 64-bit) foram detectados corretamente. Neste guia, não selecionaremos a ISO neste momento, optando pela instalação manual mais adiante.
 
-![Configuração de Nome e OS da VM](assets/image_3.png)
+![Configuração de Nome e OS da VM](Imagens%20Ubuntu/P3.png)
 *Legenda: Tela de identificação da nova máquina virtual.*
 
 ### 2. Configuração do Hardware Virtual
@@ -35,14 +35,14 @@ Iniciamos o provisionamento detalhado dos recursos para garantir um bom desempen
 * **Memória RAM:** Alocamos **4096 MB** (4 GB).
 * **Processador:** Reservamos **3 núcleos** de CPU para o ambiente virtualizado.
 
-![Alocação de RAM e CPU](assets/image_2.png)
+![Alocação de RAM e CPU](Imagens%20Ubuntu/P4.png)
 *Legenda: Tela de configuração dos recursos de hardware.*
 
 ### 3. Configuração do Disco Rígido Virtual
 
 Para o armazenamento do sistema e dados, criamos um novo disco rígido virtual. Alocamos o espaço solicitado de **25,21 GB**, utilizando o formato dinamicamente alocado (padrão do VirtualBox) para otimizar o uso de espaço no disco físico.
 
-![Criação do Disco Virtual](assets/image_1.png)
+![Criação do Disco Virtual](Imagens%20Ubuntu/P5.png)
 *Legenda: Etapa de definição do tamanho e tipo do disco virtual.*
 
 👥 Autores
