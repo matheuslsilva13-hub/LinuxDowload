@@ -64,41 +64,41 @@ Com as configurações de hardware finalizadas, a máquina virtual aparece na li
 ### 6. Inserindo a Imagem ISO (Disco de Instalação)
 Antes de ligar a máquina, precisamos colocar o "CD de instalação". Fomos em **Configurações > Armazenamento**. O drive óptico virtual aparece inicialmente como "Vazio".
 
-![Armazenamento Vazio](Imagens%20Ubuntu/P14.jpg)
+![Armazenamento Vazio](Imagens%20Ubuntu/P7.jpg)
 
 Clicamos no ícone de disco e adicionamos a ISO do Ubuntu que baixamos anteriormente.
 
-![Adicionando ISO](Imagens%20Ubuntu/P13.jpg)
+![Adicionando ISO](Imagens%20Ubuntu/P8.jpg)
 
 Com a imagem ISO carregada com sucesso, a máquina virtual está totalmente configurada e pronta para o primeiro boot.
 
-![Pronto para Iniciar](Imagens%20Ubuntu/P12.jpg)
+![Pronto para Iniciar](Imagens%20Ubuntu/P9.jpg)
 
 ---
 
 ### 7. Inicialização e Boot
 Ao clicar no botão verde **Iniciar**, a máquina liga e mostra o menu do GRUB. Selecionamos a primeira opção ("Try or Install Ubuntu").
 
-![Menu de Boot](Imagens%20Ubuntu/P11.jpg)
+![Menu de Boot](Imagens%20Ubuntu/P10.jpg)
 
 Durante os primeiros segundos, o sistema carrega os arquivos básicos, mostrando os logs no terminal antes de subir o ambiente visual.
 
-![Logs do Terminal](Imagens%20Ubuntu/P10.png)
+![Logs do Terminal](Imagens%20Ubuntu/P11.png)
 
 ---
 
 ### 8. Assistente de Instalação do Ubuntu
 Quando a interface gráfica do instalador abre, somos recebidos pela tela inicial de configuração.
 
-![Tela de Boas Vindas](Imagens%20Ubuntu/P9.png)
+![Tela de Boas Vindas](Imagens%20Ubuntu/P12.png)
 
 A primeira ação é alterar o idioma do instalador para **Português do Brasil**.
 
-![Tela de Idioma](Imagens%20Ubuntu/P8.png)
+![Tela de Idioma](Imagens%20Ubuntu/P13.png)
 
 Avançando nas etapas (teclado, rede, particionamento), chegamos na tela de criação de conta. Aqui definimos nosso usuário administrador, a senha e o nome da máquina.
 
-![Criação de Usuário](Imagens%20Ubuntu/P7.png)
+![Criação de Usuário](Imagens%20Ubuntu/P14.png)
 
 ---
 
