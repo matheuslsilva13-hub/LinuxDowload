@@ -13,7 +13,7 @@
 ### 1. Criação da Máquina Virtual (VM)
 Iniciamos a configuração definindo os recursos de hardware virtual para garantir um bom desempenho da interface gráfica do sistema.
 
-*  **Espaço no disco:** Alocamos [] GB
+*  **Espaço no disco:** Alocamos [25] GB
 *  **Memória RAM:** Alocamos [4096] MB.
 *  **Processador:** Reservamos [3] núcleos de CPU.
 
