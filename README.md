@@ -64,22 +64,22 @@ Com as configurações de hardware finalizadas, a máquina virtual aparece na li
 ### 6. Inserindo a Imagem ISO (Disco de Instalação)
 Antes de ligar a máquina, precisamos colocar o "CD de instalação". Fomos em **Configurações > Armazenamento**. O drive óptico virtual aparece inicialmente como "Vazio".
 
-![Armazenamento Vazio](Imagens%20Ubuntu/P7.jpg)
+![Armazenamento Vazio](Imagens%20Ubuntu/P7.png)
 
 Clicamos no ícone de disco e adicionamos a ISO do Ubuntu que baixamos anteriormente.
 
-![Adicionando ISO](Imagens%20Ubuntu/P8.jpg)
+![Adicionando ISO](Imagens%20Ubuntu/P8.png)
 
 Com a imagem ISO carregada com sucesso, a máquina virtual está totalmente configurada e pronta para o primeiro boot.
 
-![Pronto para Iniciar](Imagens%20Ubuntu/P9.jpg)
+![Pronto para Iniciar](Imagens%20Ubuntu/P9.png)
 
 ---
 
 ### 7. Inicialização e Boot
 Ao clicar no botão verde **Iniciar**, a máquina liga e mostra o menu do GRUB. Selecionamos a primeira opção ("Try or Install Ubuntu").
 
-![Menu de Boot](Imagens%20Ubuntu/P10.jpg)
+![Menu de Boot](Imagens%20Ubuntu/P10.png)
 
 Durante os primeiros segundos, o sistema carrega os arquivos básicos, mostrando os logs no terminal antes de subir o ambiente visual.
 
