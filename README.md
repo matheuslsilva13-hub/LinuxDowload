@@ -79,9 +79,9 @@ Criamos uma unidade de disco virtual de **25,21 GB**. O formato utilizado é o *
 
 ## 👥 Equipe de Desenvolvimento
 
-| Papel | Integrante | GitHub |
-| :--- | :--- | :--- |
-| **Piloto** | Miguel Regasson Garbeti | [@miguel](https://github.com) |
-| **Copiloto** | Matheus Luka Santos da Silva | [@matheus](https://github.com) |
+| Papel | Integrante | 
+| :--- | :--- | 
+| **Piloto** | Miguel Regasson Garbeti | 
+| **Copiloto** | Matheus Luka Santos da Silva | 
 
 ---
