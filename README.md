@@ -1,52 +1,87 @@
-## 🖥️ Instalação Linux & Documentação
-**Passo a passo da instalação do Ubuntu no VirtualBox, incluindo configurações de hardware virtual, Guest Additions e comandos de pós-instalação.**
+# 🖥️ Instalação Linux & Documentação Técnica
 
-## 🛠️ Pré-requisitos
+> **Projeto prático de virtualização focado na instalação e configuração do ecossistema Ubuntu no Oracle VM VirtualBox.**
 
-**Para reproduzir este ambiente, você precisará de:**
-* [Oracle VM VirtualBox](https://www.virtualbox.org/) (Versão 7.0+)
-* Imagem ISO do [Ubuntu Desktop](https://ubuntu.com/download/desktop)
-* No mínimo **25 GB** de espaço em disco e **4 GB** de memória RAM disponíveis na máquina hospedeira.
-  
-## 🚀 Passo a Passo da Instalação
+---
 
-### 1. Preparação e Criação da Máquina Virtual (VM)
+## 📋 Visão Geral
+Este repositório contém a documentação completa para a criação de um ambiente de desenvolvimento Linux. O guia aborda desde o provisionamento de hardware virtual até as configurações recomendadas para performance.
 
-Iniciamos o processo abrindo o VirtualBox para dar início ao assistente de criação.
+---
 
-![Busca e abertura do VirtualBox no Windows](Imagens%20Ubuntu/P1.png)
-*Legenda: Acessando o VirtualBox via menu iniciar.*
+## 🛠️ Infraestrutura Necessária
 
-Ao abrir o gerenciador, clicamos no botão **Novo** para começar.
+Antes de iniciar, certifique-se de possuir os seguintes componentes:
 
-![Tela principal do VirtualBox Gerenciador](Imagens%20Ubuntu/P2.png)
-*Legenda: Janela inicial do VirtualBox, pronta para criação de uma nova VM.*
+| Item | Versão/Requisito | Link |
+| :--- | :--- | :--- |
+| **VirtualBox** | 7.0 ou Superior | [Download](https://www.virtualbox.org/) |
+| **ISO Ubuntu** | Desktop (LTS) | [Download](https://ubuntu.com/download/desktop) |
+| **RAM Livre** | 4 GB | - |
+| **Disco Livre**| 25 GB | - |
 
-#### Definição de Nome e Sistema Operacional
-Nesta etapa, atribuímos o nome "Ubuntu" à máquina e verificamos se o tipo (Linux) e a versão (Ubuntu 64-bit) foram detectados corretamente. Neste guia, não selecionaremos a ISO neste momento, optando pela instalação manual mais adiante.
+---
 
-![Configuração de Nome e OS da VM](Imagens%20Ubuntu/P3.png)
-*Legenda: Tela de identificação da nova máquina virtual.*
+## 🚀 Guia de Instalação Passo a Passo
 
-### 2. Configuração do Hardware Virtual
+### 1. Preparação e Inicialização
+O primeiro passo consiste em localizar o software hospedeiro e iniciar o assistente de provisionamento.
 
-Iniciamos o provisionamento detalhado dos recursos para garantir um bom desempenho da interface gráfica GNOME do sistema. Asseguramos que os recursos mínimos exigidos para a atividade fossem respeitados.
+<p align="center">
+  <img src="Imagens%20Ubuntu/P1.png" alt="Busca VirtualBox" width="400px">
+  <br><em>Legenda: Inicialização do Oracle VM VirtualBox via Menu do Sistema.</em>
+</p>
 
-* **Memória RAM:** Alocamos **4096 MB** (4 GB).
-* **Processador:** Reservamos **3 núcleos** de CPU para o ambiente virtualizado.
+Ao acessar a interface do gerenciador, utilizamos a opção **Novo** para definir os parâmetros básicos da nova instância.
 
-![Alocação de RAM e CPU](Imagens%20Ubuntu/P4.png)
-*Legenda: Tela de configuração dos recursos de hardware.*
+<p align="center">
+  <img src="Imagens%20Ubuntu/P2.png" alt="Tela Inicial" width="600px">
+  <br><em>Legenda: Interface de gerenciamento pronta para nova instância.</em>
+</p>
 
-### 3. Configuração do Disco Rígido Virtual
+---
 
-Para o armazenamento do sistema e dados, criamos um novo disco rígido virtual. Alocamos o espaço solicitado de **25,21 GB**, utilizando o formato dinamicamente alocado (padrão do VirtualBox) para otimizar o uso de espaço no disco físico.
+### 2. Definição do Sistema Operacional
+Configuramos a identidade da VM. O nome "Ubuntu" permite que o VirtualBox identifique automaticamente o kernel adequado.
 
-![Criação do Disco Virtual](Imagens%20Ubuntu/P5.png)
-*Legenda: Etapa de definição do tamanho e tipo do disco virtual.*
+> [!IMPORTANT]
+> Optamos por **não selecionar a ISO** neste momento para realizar uma configuração granular dos recursos antes do primeiro boot.
 
-👥 Autores
+<p align="center">
+  <img src="Imagens%20Ubuntu/P3.png" alt="Identificação OS" width="500px">
+  <br><em>Legenda: Configuração de nome, diretório e tipo de sistema.</em>
+</p>
 
-**[Miguel Regasson Garbeti] - Piloto (Configuração e Instalação)** 
+---
 
-**[Matheus Luka Santos da Silva] - Copiloto (Documentação e Prints)**
+### 3. Alocação de Recursos (Hardware)
+Para garantir uma experiência fluida com a interface GNOME, priorizamos o equilíbrio entre a máquina hospedeira e a convidada:
+
+* **Memória Base:** 4096 MB (Ideal para multitarefa inicial).
+* **Processadores:** 3 CPUs (Garante estabilidade em processos de atualização).
+
+<p align="center">
+  <img src="Imagens%20Ubuntu/P4.png" alt="Configuração Hardware" width="500px">
+  <br><em>Legenda: Ajuste de RAM e Processamento.</em>
+</p>
+
+---
+
+### 4. Armazenamento Virtualizado
+Criamos uma unidade de disco virtual de **25,21 GB**. O formato utilizado é o **VDI (VirtualBox Disk Image)** com alocação dinâmica, garantindo que o espaço seja ocupado no disco físico apenas conforme o uso real.
+
+<p align="center">
+  <img src="Imagens%20Ubuntu/P5.png" alt="Disco Virtual" width="500px">
+  <br><em>Legenda: Provisionamento de armazenamento persistente.</em>
+</p>
+
+---
+
+## 👥 Equipe de Desenvolvimento
+
+| Papel | Integrante | GitHub |
+| :--- | :--- | :--- |
+| **Piloto** | Miguel Regasson Garbeti | [@miguel](https://github.com) |
+| **Copiloto** | Matheus Luka Santos da Silva | [@matheus](https://github.com) |
+
+---
