@@ -9,6 +9,7 @@ Para reproduzir este ambiente, você precisará de:
 * No mínimo **25 GB** de espaço em disco e **4 GB** de memória RAM disponíveis na máquina hospedeira.
 
 👥 Autores
+
 **[Miguel Regasson Garbeti] - Piloto (Configuração e Instalação)** 
 
 **[Matheus Luka Santos da Silvs] - Copiloto (Documentação e Prints)**
