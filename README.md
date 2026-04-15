@@ -12,4 +12,4 @@ Para reproduzir este ambiente, você precisará de:
 
 **[Miguel Regasson Garbeti] - Piloto (Configuração e Instalação)** 
 
-**[Matheus Luka Santos da Silvs] - Copiloto (Documentação e Prints)**
+**[Matheus Luka Santos da Silva] - Copiloto (Documentação e Prints)**
