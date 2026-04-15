@@ -19,10 +19,10 @@ Este projeto é um guia prático para a instalação do Linux Ubuntu usando o Vi
 Primeiro, abrimos o VirtualBox e clicamos no botão **Novo**.
 
 ![Abertura do VirtualBox](Imagens%20Ubuntu/P1.png)
-*Legenda: Abrindo o programa no Windows.*
+
 
 ![Botão Novo](Imagens%20Ubuntu/P2.png)
-*Legenda: Tela inicial para criar a VM.*
+
 
 ---
 
@@ -32,17 +32,17 @@ Damos o nome de **Ubuntu** para a máquina. O VirtualBox já reconhece automatic
 > **Nota:** Não selecionamos a imagem ISO nesta tela para configurar o hardware primeiro.
 
 ![Nome do Sistema](Imagens%20Ubuntu/P3.png)
-*Legenda: Definindo nome e tipo de sistema.*
+
 
 ---
 
 ### 3. Configuração de Hardware (RAM e CPU)
-Escolhemos os recursos que a máquina vai usar:
+**Escolhemos os recursos que a máquina vai usar:**
 * **Memória RAM:** 4096 MB (4 GB)
 * **Processadores:** 3 núcleos de CPU
 
 ![Configuração de Hardware](Imagens%20Ubuntu/P4.png)
-*Legenda: Ajustando a memória e os processadores.*
+
 
 ---
 
@@ -50,7 +50,7 @@ Escolhemos os recursos que a máquina vai usar:
 Criamos um disco virtual com **25,21 GB** para instalar o sistema e guardar os arquivos.
 
 ![Disco Virtual](Imagens%20Ubuntu/P5.png)
-*Legenda: Criando o espaço de armazenamento.*
+
 
 ---
 
