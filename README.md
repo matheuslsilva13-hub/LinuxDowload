@@ -55,36 +55,48 @@ Criamos um disco virtual com **25,21 GB** para instalar o sistema e guardar os a
 ---
 
 ### 5. Resumo da Máquina Criada
-Com as configurações finalizadas, a máquina virtual aparece na lista do gerenciador, pronta para receber o sistema operacional.
+Com as configurações de hardware finalizadas, a máquina virtual aparece na lista do gerenciador, pronta para receber o sistema operacional.
 
 ![Resumo da Máquina](Imagens%20Ubuntu/P6.png)
 
 ---
 
 ### 6. Inserindo a Imagem ISO (Disco de Instalação)
-Antes de ligar a máquina, precisamos colocar o "CD de instalação". Fomos em **Configurações > Armazenamento** e adicionamos a ISO do Ubuntu baixada no drive óptico virtual.
+Antes de ligar a máquina, precisamos colocar o "CD de instalação". Fomos em **Configurações > Armazenamento**. O drive óptico virtual aparece inicialmente como "Vazio".
+
+![Armazenamento Vazio](Imagens%20Ubuntu/P14.jpg)
+
+Clicamos no ícone de disco e adicionamos a ISO do Ubuntu que baixamos anteriormente.
 
 ![Adicionando ISO](Imagens%20Ubuntu/P13.jpg)
+
+Com a imagem ISO carregada com sucesso, a máquina virtual está totalmente configurada e pronta para o primeiro boot.
+
+![Pronto para Iniciar](Imagens%20Ubuntu/P12.jpg)
 
 ---
 
 ### 7. Inicialização e Boot
-Ao clicar em **Iniciar**, a máquina liga e mostra o menu do GRUB. Selecionamos a primeira opção para instalar o Ubuntu.
+Ao clicar no botão verde **Iniciar**, a máquina liga e mostra o menu do GRUB. Selecionamos a primeira opção ("Try or Install Ubuntu").
 
 ![Menu de Boot](Imagens%20Ubuntu/P11.jpg)
 
-Durante os primeiros segundos, o sistema carrega os arquivos básicos mostrando os logs no terminal, antes de abrir a tela gráfica.
+Durante os primeiros segundos, o sistema carrega os arquivos básicos, mostrando os logs no terminal antes de subir o ambiente visual.
 
 ![Logs do Terminal](Imagens%20Ubuntu/P10.png)
 
 ---
 
-### 8. Instalação do Sistema
-Quando a interface gráfica do instalador abre, a primeira etapa é selecionar o idioma **Português do Brasil**.
+### 8. Assistente de Instalação do Ubuntu
+Quando a interface gráfica do instalador abre, somos recebidos pela tela inicial de configuração.
+
+![Tela de Boas Vindas](Imagens%20Ubuntu/P9.png)
+
+A primeira ação é alterar o idioma do instalador para **Português do Brasil**.
 
 ![Tela de Idioma](Imagens%20Ubuntu/P8.png)
 
-Seguindo o assistente, chegamos na etapa final de configuração, onde criamos o nosso usuário administrador, definimos a senha e o nome do computador.
+Avançando nas etapas (teclado, rede, particionamento), chegamos na tela de criação de conta. Aqui definimos nosso usuário administrador, a senha e o nome da máquina.
 
 ![Criação de Usuário](Imagens%20Ubuntu/P7.png)
 
