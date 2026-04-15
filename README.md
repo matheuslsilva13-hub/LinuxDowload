@@ -103,7 +103,7 @@ Avançando nas etapas (teclado, rede, particionamento), chegamos na tela de cria
 ### 9. Progresso e Conclusão da Instalação
 Após configurar o usuário, o instalador fará o restante do trabalho sozinho. Enquanto os arquivos são copiados, o Ubuntu exibe algumas telas de apresentação e suporte.
 
-![Progresso da Instalação](Imagens%20Ubuntu/P15.jpg)
+![Progresso da Instalação](Imagens%20Ubuntu/P15.png)
 
 Quando o processo terminar, uma janela avisará que a instalação foi concluída. Basta clicar em **Reiniciar Agora** para usar a sua nova máquina virtual pronta!
 
