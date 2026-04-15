@@ -100,6 +100,10 @@ Avançando nas etapas (teclado, rede, particionamento), chegamos na tela de cria
 
 ![Criação de Usuário](Imagens%20Ubuntu/P14.png)
 
+Logo chegamos a etapa de inicialização do sistema
+
+![Inicialização sistema Ubuntu]((Imagens%20Ubuntu/P15.png)
+
 ---
 
 ## 👥 Equipe
