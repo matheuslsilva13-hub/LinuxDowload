@@ -14,7 +14,7 @@
 
 Iniciamos o processo abrindo o VirtualBox para dar início ao assistente de criação.
 
-![Busca e abertura do VirtualBox no Windows](assets/image_5.png)
+![Busca e abertura do VirtualBox no Windows](Imagens%20Ubuntu/P1.png)
 *Legenda: Acessando o VirtualBox via menu iniciar.*
 
 Ao abrir o gerenciador, clicamos no botão **Novo** para começar.
